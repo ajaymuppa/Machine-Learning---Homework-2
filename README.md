@@ -39,21 +39,21 @@ Fall 2025
 
 ## Results Interpretation
 
-# Part A (Analytical)
+## Part A (Analytical)
 
-Decision stump error = 25% vs 0% for memorizer.
+- Decision stump error = 25% vs 0% for memorizer.
 
-All features had equal training error in splitting (16.7%).
+- All features had equal training error in splitting (16.7%).
 
-Best split (by information gain) = Exercise.
+- Best split (by information gain) = Exercise.
 
-Metrics show accuracy 80%, but precision/recall/F1 are more informative under imbalance.
+- Metrics show accuracy 80%, but precision/recall/F1 are more informative under imbalance.
 
-Cross-validation shows k=5 generalizes best.
+- Cross-validation shows k=5 generalizes best.
 
-# Part B (Programming)
+## Part B (Programming)
 
-Decision Tree:
+- Decision Tree:
 
 Depth=1 → underfits (low accuracy).
 
@@ -61,13 +61,13 @@ Depth=2 → better fit, balanced generalization.
 
 Depth=3 → near-perfect accuracy, risk of overfitting.
 
-kNN with 2 features (decision boundaries):
+- kNN with 2 features (decision boundaries):
 
 k=1 → very jagged, high variance.
 
 Larger k → smoother, more generalized boundaries.
 
-kNN with all features (k=5):
+- kNN with all features (k=5):
 
 Confusion matrix shows almost perfect classification (1–2 errors max).
 
